@@ -12,20 +12,6 @@ export const Form = ({ title, handleClick }: Props) => {
   const [pass, setPass] = useState("");
 
   return (
-    // <div>
-    //   <input
-    //     type="email"
-    //     value={email}
-    //     onChange={(o) => setEmail(o.target.value)}
-    //     placeholder="email"
-    //   />
-    //   <input
-    //     type="password"
-    //     value={pass}
-    //     onChange={(o) => setPass(o.target.value)}
-    //     placeholder="password"
-    //   />
-    // </div>
 
 <Card sx={{ minWidth: 275 }}>
 <CardContent>

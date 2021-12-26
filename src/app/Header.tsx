@@ -6,7 +6,6 @@ import { useAuth } from "../hooks/use-auth";
 import { removeUser } from "../store/slice/userSlice";
 
 import {makeStyles} from '@mui/styles'
-import { Navigate } from 'react-router-dom';
 
 export const Header = () => {
   const dispatch = useDispatch();
